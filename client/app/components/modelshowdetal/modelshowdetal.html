@@ -1,0 +1,17 @@
+<div class="mainpop">
+	<div class="pophead">
+		<span>{{vm.name}}</span>
+	</div>
+	<div class="popmain">
+		<ul>
+			<li>商品名称:<span>{{vm.listobj.name}}</span></li>
+			<li>商品价格:<span>{{vm.listobj.price}}元</span></li>
+			<li>商品库存:<span>{{vm.listobj.num}}</span></li>
+			<li>最近销量:<span>{{vm.listobj.left}}</span></li>
+			<li>配送价格:<span>{{vm.listobj.populrnum}}元</span></li>
+		</ul>
+	</div>
+	<div class="popfoot">
+		<span ng-click="vm.close()">取消</span>
+	</div>
+</div>

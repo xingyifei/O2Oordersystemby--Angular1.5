@@ -1,0 +1,133 @@
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  background-image: url(../../../../333.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+body header {
+  height: 40px;
+  background-color: #ff2d4b;
+}
+body footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  background-color: black;
+}
+body .logo {
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+body .logo span {
+  display: inline-block;
+  background-image: url(../../../images/281250001492063356.png);
+  width: 400px;
+  background-size: cover;
+  height: 400px;
+}
+body #regist {
+  margin-left: -1000px;
+}
+body #login {
+  margin-left: 550px;
+}
+body .registmain {
+  float: left;
+  margin: 0 auto;
+  width: 600px;
+  background-color: black;
+  opacity: 0.7;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding-top: 80px;
+}
+body .registmain div {
+  height: 60px;
+  margin-bottom: 50px;
+}
+body .registmain div input {
+  border: none;
+  display: block;
+  width: 350px;
+  height: 40px;
+  margin: 10px auto;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+body .registmain .loginbtn {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+body .registmain .loginbtn a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  background-color: #ff2d4b;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+body .mainlogin {
+  float: left;
+  margin: 0 auto;
+  width: 600px;
+  background-color: black;
+  opacity: 0.7;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding-top: 80px;
+}
+body .mainlogin div {
+  height: 60px;
+  margin-bottom: 50px;
+}
+body .mainlogin div input {
+  border: none;
+  display: block;
+  width: 350px;
+  height: 40px;
+  margin: 10px auto;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+body .mainlogin .loginbtn {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+body .mainlogin .loginbtn a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  background-color: #ff2d4b;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=login.css.map */

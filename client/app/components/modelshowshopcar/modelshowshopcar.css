@@ -1,0 +1,84 @@
+.mainpop-car {
+  width: 600px;
+  max-height: 400px;
+}
+.mainpop-car .popmain-car {
+  margin-top: 20px;
+  width: 100%;
+}
+.mainpop-car .popmain-car ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.mainpop-car .popmain-car ul li {
+  overflow: hidden;
+  width: 100%;
+  height: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.mainpop-car .popmain-car ul li:nth-child(2n+1) {
+  background-color: gainsboro;
+}
+.mainpop-car .popmain-car ul li input[type='checkbox'] {
+  margin-right: 30px;
+  margin-top: 0;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.mainpop-car .popmain-car ul li span {
+  vertical-align: middle;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.mainpop-car .popmain-car ul li span:last-child {
+  float: right;
+  color: red;
+}
+.mainpop-car .popmain-car ul li span:nth-child(3) {
+  margin-left: 20px;
+}
+.mainpop-car .totolprice {
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+  text-align: center;
+}
+.mainpop-car .totolprice span {
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+.mainpop-car .pophead-car {
+  width: 100%;
+  height: 40px;
+  background-color: #ff2d4b;
+  text-align: center;
+}
+.mainpop-car .pophead-car span {
+  line-height: 40px;
+  color: white;
+  font-size: 18px;
+}
+.mainpop-car .popfoot-car {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.mainpop-car .popfoot-car span {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  background-color: #ff2d4b;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=modelshowshopcar.css.map */

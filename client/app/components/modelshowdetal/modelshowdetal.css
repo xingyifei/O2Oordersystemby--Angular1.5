@@ -1,0 +1,53 @@
+.mainpop {
+  width: 600px;
+}
+.mainpop .pophead {
+  width: 100%;
+  height: 40px;
+  background-color: #ff2d4b;
+  text-align: center;
+}
+.mainpop .pophead span {
+  line-height: 40px;
+  color: white;
+  font-size: 18px;
+}
+.mainpop .popmain {
+  width: 100%;
+  height: 200px;
+}
+.mainpop .popmain ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 17px;
+}
+.mainpop .popmain ul li {
+  height: 40px;
+  padding-left: 150px;
+  line-height: 40px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+.mainpop .popmain ul span {
+  color: red;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.mainpop .popfoot {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.mainpop .popfoot span {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  background-color: #ff2d4b;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=modelshowdetal.css.map */

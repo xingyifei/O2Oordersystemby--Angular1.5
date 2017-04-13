@@ -1,0 +1,19 @@
+<commonheader reloaddata="vm.reloadList()" ></commonheader>
+<span class="line-top"></span>
+<div class="main">
+	<div class="shoplist">
+		<ul>
+			<li ng-repeat="one in vm.showlist">
+				<img ng-src={{one.url}} class="showphoto"/>
+				<div class="sailerinfo">
+					<span>{{one.name}}</span>
+					<span>{{one.price}}元</span>
+				</div>
+				<div class="dashinfo">
+					<span ng-click="vm.showopen(one)">查看详情</span>
+					<span ng-click="vm.addShopcar(one)">加入购物车</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>

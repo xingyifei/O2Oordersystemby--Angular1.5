@@ -1,0 +1,57 @@
+.line-top{
+    display: block;
+    height: 0;
+    width: 927px;
+    border-bottom: solid 1px orangered;
+}
+.main {
+    overflow: hidden;
+    .shoplist {
+        margin-top: 15px;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                float: left;
+                width: 220px;
+                height: 220px;
+                background-color: white;
+                margin-right: 16px;
+                margin-bottom: 20px;
+                .showphoto{
+                    display: block;
+                    height: 150px;
+                    width: 100%;
+                }
+                .sailerinfo{
+                    width: 100%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: bold;
+                    span:last-child{
+                        color: red;
+                        font-weight: bold;
+                    }
+                }
+                .dashinfo{
+                    height: 30px;
+                    background-color: #ff2d4b;
+                    text-align: center;
+                    line-height: 30px;
+                    span{
+                        display: inline-block;
+                        font-size: 18px;
+                        float: left;
+                        color: white;
+                        width: 50%;
+                        height: 100%;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

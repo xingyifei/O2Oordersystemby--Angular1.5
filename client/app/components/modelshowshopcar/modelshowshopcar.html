@@ -1,0 +1,19 @@
+<div class="mainpop-car">
+	<div class="pophead-car">
+		<span>{{vm.name}}</span>
+	</div>
+	<div class="popmain-car">
+		<ul>
+			<li ng-repeat="one in vm.showaddlist"><input type="checkbox" ng-click="vm.seltcheckbox(one)" ng-checked="one.ischecked"/><span>{{one.name}}</span><span>{{one.price}}元</span>
+				<span>数量{{one.total}}个</span></li>
+		</ul>
+	</div>
+	<div class="totolprice">
+		<span>总价{{vm.allprice}}元</span>
+	</div>
+	<div class="popfoot-car">
+		<span >支付</span>
+		<span ng-click="vm.clearShopcar()">清空购物车</span>
+		<span ng-click="vm.close()">取消</span>
+	</div>
+</div>
