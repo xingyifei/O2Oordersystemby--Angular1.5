@@ -13,6 +13,24 @@ export default class modelshowshopcarController {
 		this.showaddlist=window.showlist;
 		this.allprice=window.allprice;
 	}
+	paymoney(){
+		let self=this;
+		$.ajax({
+    		type:"post",
+    		url:"http://localhost:8080/updataMoney",
+    		async:false,
+    		data:{
+    			name:window.userinfo.name,
+    			money:window.userinfo.money-window.allprice
+    		},
+    		success:function(data){
+    			alert('支付成功');
+    			window.userinfo.money=window.userinfo.money-window.allprice;
+    			window.postMessage('',['http://192.168.12.86:3000/#/toweekmost','http://192.168.12.86:3000/#/todaymost','http://192.168.12.86:3000/#/tomonthmost']);
+    			self.close();
+    		}
+    	});
+	}
     close(){
     	this.modelshowshopcar.instance.dismiss();
     }
@@ -26,7 +44,7 @@ export default class modelshowshopcarController {
     		async:false,
     		success:function(data){
     			alert('清空购物车成功!');
-    			window.postMessage('reloaddata',['http://192.168.12.86:3000/#/toweekmost','http://192.168.12.86:3000/#/todaymost']);
+    			window.postMessage('',['http://192.168.12.86:3000/#/toweekmost','http://192.168.12.86:3000/#/todaymost','http://192.168.12.86:3000/#/tomonthmost']);
     		}
     	});
     }

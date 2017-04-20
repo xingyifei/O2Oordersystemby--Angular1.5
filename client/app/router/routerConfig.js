@@ -17,5 +17,14 @@ export default [
         tracking:{
             key:'todaymost'
         }
+    },
+    {
+        name:'tomonthmost',
+        url:"/tomonthmost",
+        template:'<tomonthmost class="routename"></tomonthmost>',
+        lazyload:require("bundle?lazy&name=tomonthmost!../components/tomonthmost/tomonthmost.js"),
+        tracking:{
+            key:'tomonthmost'
+        }
     }
 ]

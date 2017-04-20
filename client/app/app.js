@@ -28,8 +28,14 @@ angular.module('app', [
     DEBUG: process.env.DEBUG
   })
   .component('app', AppComponent)
-.config(function(){
+.config(['$stateProvider',function($stateProvider){
+//	$stateProvider.state('login',{
+//		url:'/login',
+//		templateUrl:'../app/components/login/login.html',
+//		controller:'todaymostCtl'
+//	})
 	window.showlist = [];
 	window.allprice = 0;
-})
+	window.userinfo={};
+}])
   console.log('process.env.DEBUG', process.env.DEBUG);

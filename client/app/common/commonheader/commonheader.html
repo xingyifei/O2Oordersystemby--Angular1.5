@@ -3,7 +3,11 @@
 		<span class="glyphicon glyphicon-menu-hamburger"></span>
 	</span>
 <div class="logininfo">
-     欢迎你，xingyifei！
+     欢迎你，{{vm.username}}
+     <div class="settinginfo">
+     	<span>余额:{{vm.money}}</span>
+     	<span ng-click="vm.getunlogin()">退出登录</span>
+     </div>
 </div>
 <div class="menutop">
 	<span ng-click="vm.showListCar()">查看购物车</span>

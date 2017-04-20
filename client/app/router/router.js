@@ -24,9 +24,7 @@ export default angular.module('app.router', [
                 resolve: {
                     module: ($q, $ocLazyLoad) => {
                         return $q((resolve) => {
-
                             route.lazyload(function(module){
-                            	console.log(module.default.name)
                                 $ocLazyLoad.load({ name: module.default.name });
                                 resolve(module.controller);
                             })

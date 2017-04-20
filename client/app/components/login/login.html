@@ -7,18 +7,24 @@
 	</head>
 
 	<body ng-controller="todaymostCtl as vm">
-		<header></header>
+		<header>
+			<span></span>
+		</header>
 		<div class="logo">
 			<span></span>
 		</div>
 		<div class="registmain" id="regist">
+			<div class="title">O2O在线订餐系统</div>
 			<div><input type="text" placeholder="请输入帐号" ng-model="vm.zhanghao" /></div>
 			<div><input type="text" placeholder="请输入密码" ng-model="vm.password" /></div>
 			<div class="loginbtn">
+				<a href="javascript:void(0)" ng-click="vm.returnlogin()">返回</a>
+				<a href="javascript:void(0)" style="visibility: hidden;"></a>
 				<a href="javascript:void(0)" ng-click="vm.checkuser()">注册</a>
 			</div>
 		</div>
 		<div class="mainlogin" id="login">
+			<div class="title">O2O在线订餐系统</div>
 			<div><input type="text" placeholder="请输入帐号" ng-model="vm.zhanghao" /></div>
 			<div><input type="text" placeholder="请输入密码" ng-model="vm.password" /></div>
 			<div class="loginbtn">
@@ -27,7 +33,7 @@
 				<a href="javascript:void(0)" ng-click="vm.regist()">注册</a>
 			</div>
 		</div>
-		<footer>O2O在线订餐系统</footer>
+		<footer>O2O在线订餐系统-----by github.com/xingyifei</footer>
 		<script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="angular.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="login.js" type="text/javascript" charset="utf-8"></script>

@@ -75,6 +75,32 @@
   font-size: 15px;
   margin-right: 20px;
 }
+.main-header .logininfo:hover > .settinginfo {
+  display: block;
+}
+.main-header .logininfo .settinginfo {
+  display: none;
+  transition: all;
+  position: absolute;
+  right: 0;
+  width: 180px;
+  z-index: 999;
+  background-color: white;
+  opacity: 0.4;
+}
+.main-header .logininfo .settinginfo span {
+  display: block;
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  line-height: 40px;
+}
+.main-header .logininfo .settinginfo span:hover {
+  background-color: #ff2d4b;
+  cursor: pointer;
+}
 .main-header .searchtop {
   float: right;
   line-height: 60px;
@@ -99,7 +125,7 @@
   display: inline-block;
   position: absolute;
   top: 23px;
-  right: 370px;
+  right: 355px;
   cursor: pointer;
 }
 .main-header .menutop {

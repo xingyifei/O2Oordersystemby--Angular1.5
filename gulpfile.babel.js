@@ -41,7 +41,7 @@ let paths = {
 // use webpack.config.js to build modules
 gulp.task('webpack', (cb) => {
   const config = require('./webpack.dist.config');
-  config.entry.app = paths.entry;
+  config.entry.app = paths.entry;//配置入口文件
 
   webpack(config, (err, stats) => {
     if (err) {
